@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Seven {
+    public static void main(String[] args) {
+        int a, b, c;
+        Scanner in = new Scanner(System.in);
+        System.out.print(" enter number 1=  ");
+        a = in.nextInt();
+        System.out.print(" enter number 2=  ");
+        b = in.nextInt();
+        System.out.print(" enter number 3= ");
+        c = in.nextInt();
+        if(a>b & b>c)
+        { System.out.println(a+" "+b+"  "+c+"  in order");}
+        else
+        if(a<b & b<c)
+        { System.out.println(a+" "+b+" " +c+"  in order");}
+        else
+            System.out.println(a+" "+b+" " +c+ "  not in order");
+
+
+    }
+}
